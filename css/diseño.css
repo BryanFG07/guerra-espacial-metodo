@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(/imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#titulo{
+    padding-top: 0;
+    margin: auto;
+    position: top;
+    width: auto;
+    height: auto;
+    text-align: center; 
+}
+.logo{
+    width: 500px;
+    position: top;
+    padding: auto;
+}
+.contenedor{
+    padding:0px;
+    margin:auto;
+    width: 750px;
+    height: 530px;
+    background-color: rgb(21, 18, 18);
+    border:12px groove rgb(114, 114, 98);
+    font-family: Candara;
+}
+#jugador{
+    width: 90px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    transition: all 0.5s;
+    background-image: url(/imagenes/nuestravave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.puntos{
+    background-color: rgba(66, 69, 66, 0.673);
+    height: 70px;
+    margin-top: 0px;
+    border-bottom: 0px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+}
+#nivel{
+    margin: auto;
+    font-size: 38px;
+    color:white;
+    font-family: Candara;
+
+}
+
+#enemigo1{
+    border: 3px dashed rgb(183, 12, 0);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: all 0.5s;
+    margin-left: 200px; 
+    background-image: url(/imagenes/nave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#enemigo2{
+    border: 3px dashed rgb(183, 12, 0);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: all 0.5s;
+    margin-left: 200px;
+    position:absolute; top:0; left:50;
+    background-image: url(/imagenes/nave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#enemigo3{
+    border: 3px dashed rgb(183, 12, 0);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: all 0.5s;
+    margin-left: 200px;
+    position:absolute; top:0; left:30;
+    background-image: url(/imagenes/nave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#abajo{
+    margin: auto;
+    position: top;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    text-align: center;
+}
+.texto{
+    color: white;
+}
+.volver{
+    width: 100px;
+    position: top;
+    padding: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#regresar{
+    position: absolute;
+    text-align: left; 
+    width: 50%;
+}

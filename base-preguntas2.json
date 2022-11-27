@@ -1,0 +1,22 @@
+[
+    {
+        "categoria": "¿Cuál será la mejor opcion?",
+        "pregunta": "Elije uno de los caminos galácticos",
+        "respuesta": "Elejir ",
+        "incorrecta1": "Elejir",
+        "incorrecta2": "Elejir",
+        "incorrecta3": "Elejir\r",
+        "imagen": "/imagenes/camino.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "¿Cuál será la mejor opcion?",
+        "pregunta": "Elije uno de los caminos galácticos",
+        "respuesta": "Elejir ",
+        "incorrecta1": "Elejir",
+        "incorrecta2": "Elejir",
+        "incorrecta3": "Elejir\r",
+        "imagen": "/imagenes/camino.png",
+        "objectFit": "cover" 
+    }
+]

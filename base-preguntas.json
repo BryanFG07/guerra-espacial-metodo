@@ -1,0 +1,605 @@
+[
+    {
+        "categoria": "Interpolación lineal",
+        "pregunta": "Encuentra el margen de error usando el método de interpolación lineal",
+        "respuesta": "0.03226926",
+        "incorrecta1": "0.0003334",
+        "incorrecta2": "0.033949",
+        "incorrecta3": "0.19393939\r",
+        "imagen": "/imagenes/problema2.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resuelve el sistema de ecuaciones lineales por el Método Montante ¿Cuál es el valor del pivote en la segunda iteración?",
+        "respuesta": "1",
+        "incorrecta1": "-1",
+        "incorrecta2": "3",
+        "incorrecta3": "11",
+        "imagen": "/imagenes/problema3.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resuelve el sistema de ecuaciones lineales por el Método Gauss-Jordan ¿Cuáles son los valores de la fila 1 de la matriz en la segunda iteración?",
+        "respuesta": "1, -1,    3,   13",
+        "incorrecta1": "1,   1,    3,   9",
+        "incorrecta2": "1,   -1,    2,   13",
+        "incorrecta3": "0,   -1,    2,   13",
+        "imagen": "/imagenes/problema4.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resuelve el sistema de ecuaciones lineales por el Método Gaussiana ¿Cuáles son los valores de la fila 2 de la matriz en la segunda iteración?",
+        "respuesta": "0,   6,   9,   17",
+        "incorrecta1": "0,   8,   7,   16",
+        "incorrecta2": "0,   6,   2,   17",
+        "incorrecta3": "1,   6,   9,   17",
+        "imagen": "/imagenes/problema5.png",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resuelve el sistema de ecuaciones lineales por el Método Gauss-Seidel  ¿Cuáles son los valores x1, x2, x3, x4 en la primera iteración?",
+        "respuesta": " x1=6.333, x2=-2.084, x3=-1.583, x4=4.501",
+        "incorrecta1": "x1=5.777, x2=-2.084, x3=-1.583, x4=4.501",
+        "incorrecta2": "x1=6.333, x2=-2.084, x3=-4.64422, x4=4.501",
+        "incorrecta3": "x1=5.777, x2=-2.9967, x3=-1.583, x4=4.555",
+        "imagen": "/imagenes/problema6.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Por el método de Lagrange cuales son los valores de las sumatoria para obtener el valor de g(x) para x=3.",
+        "respuesta": "0.2677777777+1.512673659+1.739583333+0.07433",
+        "incorrecta1": "1.4777777777+3.89673659+1.739583333+0.07433",
+        "incorrecta2": "0.2677777777+1.512673659+2.85933333+0.07433",
+        "incorrecta3": "1.477777777+1.512673659+1.739583333+1.17433",
+        "imagen": "/imagenes/problema7.png",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Por el método Newton hacia adelante cuáles son los valores de  ∆´1 y ∆´2 para obtener el valor g(x) para x=3.",
+        "respuesta": "0.24 y 0.57 ",
+        "incorrecta1": "0.35 y 0.57 ",
+        "incorrecta2": "0.24 y 0.87 ",
+        "incorrecta3": "0.35 y 0.57 ",
+        "imagen": "/imagenes/problema8.png",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Por el método Newton hacia atrás, obtén el g(x) para x=3 y obtén s",
+        "respuesta": "g(x)=1.09265625 y s=0.375",
+        "incorrecta1": "g(x)=1.09265625 y s=0.2910",
+        "incorrecta2": "g(x)=2.90394925 y s=0.375",
+        "incorrecta3": "g(x)=2.90394925 y s=0.2910",
+        "imagen": "/imagenes/problema9.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Por el método bisectriz encontrar hasta la 2ra iteración, ¿la gráfica es la correcta?",
+        "respuesta": "1ra iteración = 1.428571429, 2da iteración =2.9154511895, el gráfico es correcto. ",
+        "incorrecta1": "1ra iteración = 2.428571429, 2da iteración =2.9154511895, el gráfico NO es correcto.",
+        "incorrecta2": "1ra iteración = 1.428571429, 2da iteración =2.9154511895, el gráfico NO es correcto.",
+        "incorrecta3": "1ra iteración = 2.428571429, 2da iteración =2.9154511895, el gráfico es correcto.",
+        "imagen": "/imagenes/problema10.png",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Por el método Newton Raphson obtén hasta la segunda iteración el valor de x2 y el margen de error.",
+        "respuesta": " x2=0.604, margen de error= 0.19 ",
+        "incorrecta1": " x2=0.604, margen de error= 0.87",
+        "incorrecta2": " x2=1.454, margen de error= 0.19",
+        "incorrecta3": " x2=1.454, margen de error= 0.87",
+        "imagen": "/imagenes/problema11.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Por el método de falsa posición obtén la x hasta la segunda interación y el margen de error.",
+        "respuesta": "x=1.30343783, margen de error=0.37703458",
+        "incorrecta1": " x=3.6347783, margen de error=0.86373838",
+        "incorrecta2": " x=1.30343783, margen de error=0.86373838",
+        "incorrecta3": " x=3.6347783, margen de error=0.37703458",
+        "imagen": "/imagenes/problema12.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Por el método punto fijo.",
+        "respuesta": "0.060847749",
+        "incorrecta1": "0.60847749",
+        "incorrecta2": "0.570847749",
+        "incorrecta3": " 0.000847749",
+        "imagen": "/imagenes/problema13.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Por el método Secante.",
+        "respuesta": "0.048861447",
+        "incorrecta1": "0.098861447",
+        "incorrecta2": "0.570847749",
+        "incorrecta3": " 0.000847749",
+        "imagen": "/imagenes/problema14.png",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Integración",
+        "pregunta": "Por el método trapezoidal obtener la precisión eficiente a partir de la siguiente integral por el método de regla trapezoidal. ¿Cuál es el valor de la integral y de f(x=2)?",
+        "respuesta": " 0.3673916963, f(x=2)=0.3333333333",
+        "incorrecta1": " 0.45656666, f(x=2)=0.456666666",
+        "incorrecta2": " 0.3673916963, f(x=2)=0.4566666666",
+        "incorrecta3": "0.45656666, f(x=2)=0.3333333333",
+        "imagen": "/imagenes/problema15.png",
+        "objectFit": "cover"
+    } ,
+    {
+        "categoria": "Integración",
+        "pregunta": "Por el método regla de 3/8 Simpson, de la siguiente integral obtener la estimación exacta, ¿Cuál es el valor de la integral y de 3(f(x=1/6))?",
+        "respuesta": " 0.1806098537, 3(f(x=1/6))=3{(1/6)^3(e^(⅙))}",
+        "incorrecta1": "0.205859859, 3(f(x=1/6))=3{(1/6)^3(e^(⅙))}",
+        "incorrecta2": "0.1806098537, 3(f(x=1/6))=3{(1/3)^3(e^(⅙))}",
+        "incorrecta3": "0.205859859, 3(f(x=1/6))=3{(1/3)^3(e^(⅙))}",
+        "imagen": "/imagenes/problema16.png",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Integración",
+        "pregunta": "Por el método de Newton cotes abiertas, de la siguiente integral obtener la estimación exacta, ¿Cuál es el valor de la integral y de h?",
+        "respuesta": " -9.3333333333, h=2/3",
+        "incorrecta1": " -7.3333333333, h=1/3",
+        "incorrecta2": " -9.3333333333, h=1/3",
+        "incorrecta3": " -7.3333333333, h=2/3",
+        "imagen": "/imagenes/problema17.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Integración",
+        "pregunta": "Por el método de Newton cotes cerrada, encontrar el valor de la integral y de h. ",
+        "respuesta": "41.25689665, h=2/3 ",
+        "incorrecta1": "40.39494942, h=1/3 ",
+        "incorrecta2": "40.39494942, h=2/3 ",
+        "incorrecta3": "41.25689665, h=1/3 ",
+        "imagen": "/imagenes/problema18.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " ",
+        "pregunta": "Por el método Euler hacia delante encontrar y1 y y2 a partir de la siguiente derivada ",
+        "respuesta": "Respuesta: y1=2.9, y2=2.858",
+        "incorrecta1": "Respuesta: y1=3.5, y2=2.188",
+        "incorrecta2": "Respuesta: y1=2.9, y2=2.188",
+        "incorrecta3": "Respuesta: y1=3.5, y2=2.858 ",
+        "imagen": "/imagenes/problema19.png",   
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": " ",
+        "pregunta": "Por el método euler hacia atrás, encontrar y1 y2 y y3 de la siguiente derivada.",
+        "respuesta": "y1=17.778, y2=286.505, y3=3498.481",
+        "incorrecta1": "y1=17.778, y2=286.505, y3=244.222",
+        "incorrecta2": "y1=20.778, y2=200.944, y3=3498.481",
+        "incorrecta3": "y1=20.778, y2=286.505, y3=3498.481 ",
+        "imagen": "/imagenes/problema20.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " ",
+        "pregunta": "Por el método Euler modificado encontrar y1 con la siguiente derivada",
+        "respuesta": "y1=0.939",
+        "incorrecta1": "y1=1.939",
+        "incorrecta2": "y1=0.339",
+        "incorrecta3": "y1=0.1239",
+        "imagen": "/imagenes/problema21.png",   
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": " ",
+        "pregunta": "Por el método de Runge Kutta 2do orden encontrar y1 para la siguiente derivada",
+        "respuesta": "y1=0.968",
+        "incorrecta1": "y1=1.939",
+        "incorrecta2": "y1=0.339",
+        "incorrecta3": "y1=0.1239",
+        "imagen": "/imagenes/problema22.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " ",
+        "pregunta": "Por el método de Kutta 3er orden encontrar y1 con la siguiente derivada",
+        "respuesta": "y1=1.203560522",
+        "incorrecta1": "y1=1.9393948",
+        "incorrecta2": "y1=1.92393293",
+        "incorrecta3": "y1=0.393939393",
+        "imagen": "/imagenes/problema23.png",   
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": " ",
+        "pregunta": "Por el método Runge Kutta 4to orden, obtener y2 de la siguiente derivada",
+        "respuesta": "y2=1.408",
+        "incorrecta1": " y2=2.408",
+        "incorrecta2": " y2=0.408",
+        "incorrecta3": " y2=1.699",
+        "imagen": "/imagenes/problema24.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " Mínimos cuadrados",
+        "pregunta": "Del método mínimos cuadrados a qué se ajusta está matriz. ",
+        "respuesta": "Línea recta",
+        "incorrecta1": "Cuadrática ",
+        "incorrecta2": "Exponencial",
+        "incorrecta3": "Imaginaria",
+        "imagen": "/imagenes/problema25.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " Mínimos cuadrados",
+        "pregunta": "Del método mínimos cuadrados a qué se ajusta está matriz. ",
+        "respuesta": "Lineal con función ",
+        "incorrecta1": "Cuadrática ",
+        "incorrecta2": "Exponencial",
+        "incorrecta3": "Imaginaria",
+        "imagen": "/imagenes/problema26.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " Mínimos cuadrados",
+        "pregunta": "Del método mínimos cuadrados a qué se ajusta está matriz. ",
+        "respuesta": "Cuadrática con función   ",
+        "incorrecta1": "Cuadrática ",
+        "incorrecta2": "Exponencial",
+        "incorrecta3": "Lineal con funcion",
+        "imagen": "/imagenes/problema27.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " Mínimos cuadrados",
+        "pregunta": "Del método mínimos cuadrados a qué se ajusta está matriz. ",
+        "respuesta": "Cuadrática",
+        "incorrecta1": "Cuadrática con función",
+        "incorrecta2": "Cúbica",
+        "incorrecta3": "Lineal con función",
+        "imagen": "/imagenes/problema28.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": " Mínimos cuadrados",
+        "pregunta": "Del método mínimos cuadrados a qué se ajusta está matriz. ",
+        "respuesta": "Cúbica ",
+        "incorrecta1": "Cuadrática con función",
+        "incorrecta2": "Exponencial",
+        "incorrecta3": "Lineal con función",
+        "imagen": "/imagenes/problema29.png",   
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": " Mínimos cuadrados",
+        "pregunta": "Con los valores dados de “x” y “y”, calcular los valores de la primera fila de la matriz por el método mínimos cuadrados línea recta.  ",
+        "respuesta": "6, 26, 24.5 ",
+        "incorrecta1": "6, 15, 18.5",
+        "incorrecta2": "6, 26, 18.5",
+        "incorrecta3": "6, 15, 24.5",
+        "imagen": "/imagenes/problema30.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Obtener los valores de x,y,z de la cuarta iteración por el método de Jabodi.  ",
+        "respuesta": "x=1.34671875, y=1.29875, z=1.505",
+        "incorrecta1": "x=1.89083383, y=1.29875, z=2.5785",
+        "incorrecta2": "x=1.34671875, y=1.29875, z=2.5785",
+        "incorrecta3": "x=1.89083383, y=4.29875, z=1.505",
+        "imagen": "/imagenes/problema31.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Minimos cuadrados",
+        "pregunta": "Por el método mínimos cuadrados ajustado a línea recta, encontrar los valores de la fila 2 de la matriz. ",
+        "respuesta": "4.9, 8.41, 14.96",
+        "incorrecta1": "1.5, 9.71, 13.56",
+        "incorrecta2": "1.5, 8.41, 13.56",
+        "incorrecta3": "4.9, 9.71, 14.96",
+        "imagen": "/imagenes/problema32.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Minimos cuadrados",
+        "pregunta": "Por el método mínimos cuadrados ajustado a cuadrática, encontrar los valores de la fila 3 de la matriz. ",
+        "respuesta": "42.32, 161.728, 624.5408, 112.252",
+        "incorrecta1": "42.32, 161.728, 827.5508, 112.252",
+        "incorrecta2": "42.32, 203.538, 624.5408, 112.252",
+        "incorrecta3": "42.32, 161.728, 827.5508, 112.252",
+        "imagen": "/imagenes/problema33.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Minimos cuadrados",
+        "pregunta": "Por el método mínimos cuadrados ajustado a cúbica, encontrar los valores de la última columna de la matriz.  ",
+        "respuesta": "11.2, 64.28, 370.504, 2144.7248",
+        "incorrecta1": "11.2, 64.28, 373.504, 2321.5558",
+        "incorrecta2": "12.4, 64.28, 373.504, 2144.7248",
+        "incorrecta3": "12.4, 64.28, 370.504, 2321.5558",
+        "imagen": "/imagenes/problema34.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Minimos cuadrados",
+        "pregunta": "Por el método mínimos cuadrados ajustado a lineal con función, encontrar los valores de la segunda columna de la matriz.  ",
+        "respuesta": "17.1, 97.89, 1.7056243557",
+        "incorrecta1": "19.1, 97.89, 1.7056243557",
+        "incorrecta2": "17.1, 97.89, 3.8282727272",
+        "incorrecta3": "19.1, 97.89, 3.8282727272",
+        "imagen": "/imagenes/problema35.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Minimos cuadrados",
+        "pregunta": "Por el método mínimos cuadrados ajustado a cuadrática con función, encontrar los valores de la tercera columna de la matriz.  ",
+        "respuesta": "97.89, 562.821, 3250.1313, 9.806384771",
+        "incorrecta1": "86.55, 562.821, 3250.1313, 9.806384771",
+        "incorrecta2": "97.89, 562.821, 3150.3339, 7.626263636",
+        "incorrecta3": "86.55, 562.821, 3150.3339, 7.6262636361",
+        "imagen": "/imagenes/problema36.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resolver por el método Montante, ¿Cuáles son los valores de la fila 1 de la matriz en la tercera iteración?",
+        "respuesta": "-1, 0, -5, -13",
+        "incorrecta1": "-1, 0, 5, -13",
+        "incorrecta2": "1, 0, -5, 13",
+        "incorrecta3": "1, 0, 5, 13",
+        "imagen": "/imagenes/problema37.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resolver por el método Gauss-Jordan, ¿Cuáles son los valores de la fila 3 en la segunda matriz calculada?",
+        "respuesta": "0, 0, -16, -4",
+        "incorrecta1": "-1, 0, 5, -13",
+        "incorrecta2": "1, 0, -5, 13",
+        "incorrecta3": "0, 0, 16, 4",
+        "imagen": "/imagenes/problema38.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Resolver por el método Eliminación Gaussiana, ¿Cuáles son los valores de la fila 2 en la segunda matriz calculada?",
+        "respuesta": "0, 5, 4, 2",
+        "incorrecta1": "-1, 0, 5, -13",
+        "incorrecta2": "1, 5, 3, 2",
+        "incorrecta3": "0, 5, 4, 1",
+        "imagen": "/imagenes/problema39.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales ",
+        "pregunta": "Por el método Gauss Seidel, calcular x1, y1, z1 (primera iteración)",
+        "respuesta": "x1=1.5, y1=0.333333333, z1=1.249999999",
+        "incorrecta1": "x1=2.3, y1=0.333333333, z1=2.249999999",
+        "incorrecta2": "x1=1.5, y1=0.666666666, z1=2.249999999",
+        "incorrecta3": "x1=12.3, y1=0.66666666, z1=1.249999999",
+        "imagen": "/imagenes/problema40.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Utilizando el método de la bisectriz, encontrar el valor de x en la 3 iteración y el comportamiento. ",
+        "respuesta": "x=0.375, comportamiento = +",
+        "incorrecta1": "x=1.375, comportamiento = -",
+        "incorrecta2": "x=1.375, comportamiento = +",
+        "incorrecta3": "x=0.375, comportamiento = -",
+        "imagen": "/imagenes/problema41.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Encontrar el margen de error por el método interpolación lineal.  ",
+        "respuesta": "0.4705729051",
+        "incorrecta1": "2.4705729051",
+        "incorrecta2": "1.323229051",
+        "incorrecta3": "0.8238729051",
+        "imagen": "/imagenes/problema42.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Obtén el g(x) X=3.4 mediante el método de Lagrange.  ",
+        "respuesta": "2.951704546",
+        "incorrecta1": "4.981704546",
+        "incorrecta2": "4.331704546",
+        "incorrecta3": "0.8238729051",
+        "imagen": "/imagenes/problema43.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Por el método de Newton hacia adelante obtén el g(x) para X=6 y la S  ",
+        "respuesta": "S=1.181818182, g(x)=0.96404495868",
+        "incorrecta1": "S=4.777818182, g(x)=1.78272795868",
+        "incorrecta2": "S=1.181818182, g(x)=1.78272795868",
+        "incorrecta3": "S=4.777818182, g(x)=0.96404495868",
+        "imagen": "/imagenes/problema44.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Interpolación",
+        "pregunta": "Por el método de Newton hacia atrás g(x) para X=2 obtén la S",
+        "respuesta": "-1.375",
+        "incorrecta1": "1.375",
+        "incorrecta2": "-2.475",
+        "incorrecta3": "1.895",
+        "imagen": "/imagenes/problema45.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Obtén el valor y1 en el -3<x<3, por el método grafico ",
+        "respuesta": "X=21",
+        "incorrecta1": "X=23",
+        "incorrecta2": "X=32",
+        "incorrecta3": "X=22",
+        "imagen": "/imagenes/problema46.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Por el método de falsa posición obtén la segunda iteración del margen de error  ",
+        "respuesta": "0.4822431752",
+        "incorrecta1": "1.4822431752",
+        "incorrecta2": "0.9822431752",
+        "incorrecta3": "1.4822431752",
+        "imagen": "/imagenes/problema47.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Obtener X^2 mediante el método de Raphson ",
+        "respuesta": "0.629629629",
+        "incorrecta1": "3.4822431752",
+        "incorrecta2": "0.9822431752",
+        "incorrecta3": "1.4822431752",
+        "imagen": "/imagenes/problema48.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Localiza la raíz de e-x-x, obtén la 6ta iteración el margen de error y x e-x, por el método de punto fijo",
+        "respuesta": "0.6796430063",
+        "incorrecta1": "0.29292929",
+        "incorrecta2": "0.828283883",
+        "incorrecta3": "1.039393904",
+        "imagen": "",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones no lineales",
+        "pregunta": "Obtén el margen de error hasta la 1ra iteración, mediante el método secante. ",
+        "respuesta": "X1=0.612699236",
+        "incorrecta1": "X1=0.29292929",
+        "incorrecta2": "X1=0.828283883",
+        "incorrecta3": "X1=1.039393904",
+        "imagen": "/imagenes/problema50.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Ecuaciones lineales",
+        "pregunta": "Encontrar la primera iteración mediante el método de Jacobi.",
+        "respuesta": "X=1.842285713, Y=6.76, Z=9.9",
+        "incorrecta1": "X=2.842285713, Y=8.76, Z=9.9",
+        "incorrecta2": "X=1.842285713, Y=8.76, Z=9.9",
+        "incorrecta3": "X=2.842285713, Y=6.76, Z=0.9",
+        "imagen": "/imagenes/problema51.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Integración",
+        "pregunta": "Encontrar el primer intervalo mediante el método Trapezoidal. ",
+        "respuesta": " 0.13725",
+        "incorrecta1": " 2.13725",
+        "incorrecta2": " 0.53725",
+        "incorrecta3": " 1.13725",
+        "imagen": "/imagenes/problema52.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Integración",
+        "pregunta": " Obtener la estimación exacta de la integral y h, mediante el método de regla de 1/3 de Simpson.  ",
+        "respuesta": "0.011146 y h=1/2 ",
+        "incorrecta1": "0.011146 y h=1/3 ",
+        "incorrecta2": "1.011146 y h=1/2 ",
+        "incorrecta3": "1.011146 y h=1/3",
+        "imagen": "/imagenes/problema53.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Integración",
+        "pregunta": " Obtener la estimación exacta de la integral y f(7/3), mediante el método de regla de 1/8 de Simpson.   ",
+        "respuesta": "0.0376179, f(7/3)=8.7375545 ",
+        "incorrecta1": "1.0376179, f(7/3)=8.7375545 ",
+        "incorrecta2": "0.0376179, f(7/3)=6.7375545 ",
+        "incorrecta3": "1.0376179, f(7/3)=86.7375545",
+        "imagen": "/imagenes/problema54.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aplicación",
+        "pregunta": "Encontrar el valor de la integral y de a mediante el método Newton Cotes Abiertas.  ",
+        "respuesta": "I=40, a=6/20",
+        "incorrecta1": "I=30, a=6/20 ",
+        "incorrecta2": "I=40, a=2/20",
+        "incorrecta3": "I=30, a=2/20",
+        "imagen": "/imagenes/problema55.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aplicación",
+        "pregunta": "Encontrar y1 por el método de Euler hacia delante   ",
+        "respuesta": "1.93333333",
+        "incorrecta1": "1.2939393 ",
+        "incorrecta2": "1.099888",
+        "incorrecta3": "2.9494949",
+        "imagen": "/imagenes/problema56.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aplicación",
+        "pregunta": "Encontrar y1 mediante el método Euler modificado  ",
+        "respuesta": "y1=1.266",
+        "incorrecta1": "y1=1.66 ",
+        "incorrecta2": "y1=2.66",
+        "incorrecta3": "y1=0.676",
+        "imagen": "/imagenes/problema57.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aplicación",
+        "pregunta": "Encontrar y1 por el método Runge – kutta 2 orden   ",
+        "respuesta": "0.6516322664",
+        "incorrecta1": "1.6516322664 ",
+        "incorrecta2": "4.58383838338",
+        "incorrecta3": "4.82828282826",
+        "imagen": "/imagenes/problema58.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aplicación",
+        "pregunta": "Encontrar y1 por el método Runge – kutta 3 orden ",
+        "respuesta": "1.211723276",
+        "incorrecta1": "1.6516322664 ",
+        "incorrecta2": "4.58383838338",
+        "incorrecta3": "4.82828282826",
+        "imagen": "/imagenes/problema59.png",   
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aplicación",
+        "pregunta": "Encontrar y1 por el método Runge – kutta 4 orden  ",
+        "respuesta": "0.511617621",
+        "incorrecta1": "1.6516322664 ",
+        "incorrecta2": "0.9383838338",
+        "incorrecta3": "1.22828282826",
+        "imagen": "/imagenes/problema60.png",   
+        "objectFit": "cover"
+    }
+]
+
+
+

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+  }
+
+#sect1{
+    color: white;
+    width: 100%;
+    min-height: 1000px;
+    text-align: center;
+    align-items: center;
+}
+  #sect2 {
+    background-color: #3333337d;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    min-height: 270px;
+  }
+ 
+  video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:100%;
+    z-index: -1;
+  }
+  h1 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-family: Candara;
+  }
+ 
+  #fondo{
+    margin-top: 200px;
+    height: 300px;
+  }
+  #iniciar{
+    height: 300px;
+  }
+  p{
+    font-family: Candara;
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+  }
