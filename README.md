@@ -42,12 +42,17 @@ Este proyecto fue construido utilizando las tecnologías fundamentales de la web
 ## 📂 Estructura del Proyecto
 
 ```
-├── index.html         # El punto de entrada de la aplicación
+├── index.html          # El punto de entrada de la aplicación
 ├── css/
-│   └── style.css      # Hoja de estilos principal
+│   └── .css            # Hojas de estilos principal
 ├── js/
-│   └── main.js        # Lógica principal del juego
-└── assets/            # Carpeta para imágenes, sonidos y otros recursos
+│   └── .js             # Lógica principal del juego
+└── imagenes/           # Carpeta para imágenes
+│
+└── videos/             # Carpeta de video
+└── base-preguntas.json # Preguntas del juego
+│
+└── .html               #Plantillas de los diferentes niveles
 ```
 
 ---
